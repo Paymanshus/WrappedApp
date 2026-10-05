@@ -1,0 +1,16 @@
+{
+  "name": "WrappedApp",
+  "short_name": "WrappedApp",
+  "description": "Your WhatsApp chat exports, rewound: stories, stats and a reader. Everything stays on your device.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111B21",
+  "theme_color": "#111B21",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

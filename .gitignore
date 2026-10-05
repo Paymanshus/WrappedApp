@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Planning docs
+plans/
+plancont.md
+
+# Generated test fixtures (scripts/gen-fixture-*.mjs)
+fixtures/
+/screens/
+
+# Local / private working files
+.claude/
+CLAUDE.md
+STATUS.md
+design-system/
+.env
+.env.*
+!.env.example
+
+# Chat exports and test output never belong in the repo
+*.zip
+WhatsApp Chat*
+_chat.txt
+test-results/
+playwright-report/
